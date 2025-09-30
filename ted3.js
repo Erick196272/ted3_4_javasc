@@ -8,7 +8,8 @@ let preco = parseFloat(prompt("Informe o preço do produto:"));
 let quantidade = parseInt(prompt("Informe a quantidade desejada:"));
 
 let valorTotal = preco * quantidade;
-let desconto = valorTotal * 0.10; // 10% de desconto
+let desconto = valorTotal * 0.10; 
 let valorFinal = valorTotal - desconto;
+
 
 exibirResumo(valorTotal, valorFinal);
